@@ -1,0 +1,45 @@
+.container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: green;
+  color: black;
+}
+
+.cabecalho {
+  background-color: #FFD700;
+  ;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 32px;
+  font-weight: bold;
+  color: blue;
+}
+
+.subtitulo {
+  color: darkred;
+}
+
+.conteudo {
+  background-color: lightgray;
+  color: darkgreen;
+}
+
+.conteudo h1 {
+  color: #E4005A;
+  font-size: 42px;
+}
+
+.conteudo > p:nth-child(4) {
+  color: purple;
+  vertical-align: sub;
+  
+}
+
+@media (max-width: 480px) {
+  .container {
+    background-color: #ADD8E6;
+    
+  }
+}
